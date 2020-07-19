@@ -45,7 +45,7 @@ export default class SignIn extends Component {
                     <FormInput name='password' type='password' handleChange={this.handleChange} label='password' value={this.state.password} required />
                     <div className='buttons'>
                         <Button type='submit' >Sign In</Button>
-                        <Button onClick={signInWithGoogle} isGoogleSignIn>Sign In with Google</Button> 
+                        <Button onClick={signInWithGoogle} isGoogleSignIn>Google Sign In</Button> 
                         <span style={{marginTop:'10px',fontSize:'20px', cursor:'pointer'}} onClick={handleRegister}>Register</span>
                     </div>
                 </form>
